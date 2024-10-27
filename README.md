@@ -16,7 +16,7 @@ I started with the 1D underdamped harmonic oscillator using TensorFlow. The mode
 ![img2](https://github.com/keshavsingh-ks/Physics-Informed-Neural-Networks/blob/main/deepxde3.png)
 Next, I tackled PDEs using DeepXDE to solve the heat equation. DeepXDE helped me understand how to define geometries, use boundary conditions, and combine time and space domains. It highlighted the power of physics-informed loss functions for simulating physical processes without traditional meshing.
 
-### Project 3: Cylinder Wake with TensorFlow - Adam vs. L-BFGS-B
+### Project 3: Cylinder Wake with TensorFlow - Adam and L-BFGS-B
 ![img3](https://github.com/keshavsingh-ks/Physics-Informed-Neural-Networks/blob/main/TvPTFU.png)
 Moving to fluid dynamics, I modeled the cylinder wake using Navier-Stokes equations in TensorFlow. Initially using Adam yielded decent results, but switching to L-BFGS-B significantly improved precision, demonstrating its strength in overcoming local minima. This project deepened my understanding of fluid dynamics and how PINNs can simulate complex flow directly.
 
